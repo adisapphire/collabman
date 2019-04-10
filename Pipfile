@@ -4,12 +4,22 @@ verify_ssl = true
 url = "https://pypi.org/simple"
 
 [dev-packages]
+pylint = "*"
+yapf = "*"
 
 [packages]
 django = "*"
 djangorestframework = "*"
 python-decouple = "*"
 django-webpack-loader = "*"
+"psycopg2" = "*"
+gunicorn = "*"
+django-heroku = "*"
+dj-database-url = "*"
+django-cors-headers = "*"
+"django-rest-framework-social-oauth2" = "*"
+coreapi = "*"
+whitenoise = "*"
 
 [requires]
-python_version = "3.5"
+python_version = "3.7"
